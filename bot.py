@@ -52,7 +52,7 @@ browser.find_element_by_xpath("//section/main/div/article/div/div[1]/div/form/di
 time.sleep(5)
 browser.implicitly_wait(5)
 #Переход на нужную страницу, бот будет подписываться и ставить лайки подписчикам этой страницы
-browser.get(link)
+browser.get(link)# Укажите ссылку страницы в link.py
 time.sleep(3)
 browser.implicitly_wait(3)
 browser.find_element_by_xpath("//section/main/div/header/section/ul/li[2]/a").click()

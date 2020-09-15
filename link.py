@@ -1,1 +1,2 @@
-link = "https://www.instagram.com/americanschool.courses/"
+#Ссылка на страницу с которой будет работать бот(с подписчиками страницы)
+link = ""
